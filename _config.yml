@@ -17,7 +17,7 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'https://PizzaCola-K.github.io'
 
-author: PizzaCola-K                     # change to your full name
+author: PizzaCola                       # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
@@ -29,10 +29,10 @@ twitter:
 
 social:
   name: PizzaCola-K                     # it will shows as the copyright owner in Footer
-  email:                                # change to your email address
+  email: example@example.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    # - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/PizzaCola-K       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
