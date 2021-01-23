@@ -23,3 +23,6 @@ tags: [spring]     # TAG names should always be lowercase
 [IoC Container](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans)
 
 - Inversion of Control / Dependency Injection
+- AOP Aspect oriented Programming
+- PSA Portable Service Abstract
+
