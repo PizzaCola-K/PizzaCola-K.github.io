@@ -18,7 +18,7 @@ tags: [spring]     # TAG names should always be lowercase
 - 프론트 컨트롤러 패턴
 - MVC 패턴
 
-# Spring Inversion of Control / Dependency Injection 
+# Spring Triangle
 
 [IoC Container](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans)
 
@@ -26,3 +26,20 @@ tags: [spring]     # TAG names should always be lowercase
 - AOP Aspect oriented Programming
 - PSA Portable Service Abstract
 
+# IoC
+
+[IoC](https://martinfowler.com/articles/injection.html)
+
+- IoC
+- IoC Container
+- Bean
+
+# AOP
+
+- 컴파일 (AspectJ)
+- 바이트코드 조작 (AspectJ)
+- 프록시 패턴 (Spring AOP) [Design-pattern](https://refactoring.guru/design-patterns/proxy)
+
+# PSA
+
+- Transaction ... 
