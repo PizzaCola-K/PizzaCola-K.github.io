@@ -34,6 +34,15 @@ tags: [spring]     # TAG names should always be lowercase
 - IoC Container
 - Bean
 
+- ApplicationContext
+- @Autowired
+- @Component / @ComponentScan
+- InitializingBean / DisposableBean
+  - @Bean(initMethod / destoryMethod)
+
+- @Scope("prototype"/"singleton")
+  - prototype은 lifecycle이 조금 다름
+
 # AOP
 
 - 컴파일 (AspectJ)
