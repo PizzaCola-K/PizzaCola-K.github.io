@@ -1,6 +1,6 @@
 ---
 title: Java Spring Keyword
-date: 2021-01-22 08:57:00 +0900
+date: 2021-01-31 08:57:00 +0900
 categories: [Keywords]
 tags: [spring]     # TAG names should always be lowercase
 ---
@@ -20,18 +20,14 @@ tags: [spring]     # TAG names should always be lowercase
 
 # Spring Triangle
 
-[IoC Container](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans)
-
 - Inversion of Control / Dependency Injection
 - AOP Aspect oriented Programming
 - PSA Portable Service Abstract
 
 # IoC
 
-[IoC](https://martinfowler.com/articles/injection.html)
-
-- IoC
-- IoC Container
+- IoC [IoC](https://martinfowler.com/articles/injection.html)
+- IoC Container [IoC Container](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans)
 - Bean
 
 - ApplicationContext
@@ -48,6 +44,18 @@ tags: [spring]     # TAG names should always be lowercase
 - 컴파일 (AspectJ)
 - 바이트코드 조작 (AspectJ)
 - 프록시 패턴 (Spring AOP) [Design-pattern](https://refactoring.guru/design-patterns/proxy)
+
+- Advice
+  - Before
+  - After Returning
+  - After Throwing
+  - After
+  - Around
+
+- Joinpoint
+- Pointcut
+- Weaving
+- Aspect
 
 # PSA
 
