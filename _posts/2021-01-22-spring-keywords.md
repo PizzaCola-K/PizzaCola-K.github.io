@@ -1,6 +1,6 @@
 ---
 title: Java Spring Keyword
-date: 2021-01-31 08:57:00 +0900
+date: 2021-02-02 08:57:00 +0900
 categories: [Keywords]
 tags: [spring]     # TAG names should always be lowercase
 ---
@@ -60,3 +60,6 @@ tags: [spring]     # TAG names should always be lowercase
 # PSA
 
 - Transaction ... 
+
+- JdbcTemplate를 이용하여 어느 DB 기술을 사용하더라도 같은 코드로 실행할 수 있다.
+- Exception 등도 마찬가지
