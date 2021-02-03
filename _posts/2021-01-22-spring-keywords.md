@@ -66,3 +66,15 @@ tags: [spring]     # TAG names should always be lowercase
 
 - JdbcTemplate를 이용하여 어느 DB 기술을 사용하더라도 같은 코드로 실행할 수 있다.
 - Exception 등도 마찬가지
+
+# Spring MVC
+
+[docs](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#spring-web)
+
+- DispatcherServlet
+- HandlerMapping
+- HandlerAdapter
+- Controller
+- ViewResolver
+- View
+- JSP
