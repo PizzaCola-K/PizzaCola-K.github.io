@@ -85,11 +85,26 @@ tags: [database]     # TAG names should always be lowercase
 테이블은 기본키 집합을 열의 집합과 연결하는 함수
 
 - 정규형
-  - 제1정규형
-  - 제2정규형
-  - 제3정규형
-  - 제4정규형
-  - 제5정규형
+  - 함수 종속성
+    - 제1정규형
+      - 릴레이션이어야 할 것
+    - 제2정규형
+      - 후보키의 진부분집합 -> 키가 아닌 속성
+    - 제3정규형
+      - 키가 아닌 속성 -> 키가 아닌 속성
+    - BCNF
+      - 키가 아닌 속성 -> 후보키의 진부분집합
+  - 결합 종속성
+    - 무손실 분해를 할 수 있는 상태
+    - 제4정규형
+    - 제5정규형
+
+# 릴레이션의 직교성
+- 중복을 해결해 얻는 이점
+  - 변칙을 막을 수 있다.
+  - 필요한 데이터가 어디에 있는지 명확해진다.
+  - 쿼리의 작성이 선언적이 된다.
+  - 불필요한 무손실 분해는 필요 없다.
 
 # 백업
 
@@ -108,3 +123,33 @@ tags: [database]     # TAG names should always be lowercase
     - MySQL은 기본적으로 B+Tree
 - Optimizer
 - Execution Plan
+
+# 관계형 모델
+
+- 집합론에 기인하는 데이터 모델
+- 릴레이션 단위로 다양한 연산을 사용해 질의를 수행하는 데이터 모델
+
+- Relation
+  - Table
+  - Heading
+    - a set of Attributes
+  - Body
+    - a set of Tuples
+
+## 연산의 종류
+
+- Restrict
+- Projection
+- Extend
+- Rename
+- Union
+- Intersect
+- Difference
+- Product
+- Join
+
+- 연산의 결과는 릴레이션 -> Closure 성질
+
+## 데이터 형식
+
+- Domain
